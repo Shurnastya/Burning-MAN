@@ -14,7 +14,7 @@ button, a {
 }
 
 .wrapper {
-    width: 90%;
+    width: 80%;
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -22,4 +22,108 @@ button, a {
 .header {
     display: block;
     background-image: url(./img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}
+
+.logo {
+    margin-right: 70px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px 50px 0px;
+}
+
+.nav_container {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav li {
+    margin-right: 40px;
+}
+
+.nav li:last-child {
+    margin-right: 0px;
+}
+
+.nav a {
+    color: #FFF;
+    text-align: right;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.tel p {
+    color: #FFF;
+    text-align: right;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+}
+
+.burning_man {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -40%);
+}
+
+.burning_man h3 {
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.burning_man h2 {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.tickets {
+    background: none;
+    border: 1px solid #FFF;
+    padding: 15px 55px 15px 55px;
+}
+
+.tickets a {
+    color: #FFF;
+    text-align: center;
+    font-family: Anton;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
