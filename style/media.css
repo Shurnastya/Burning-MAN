@@ -1,0 +1,197 @@
+@media (max-width: 1455px) {
+    .img_container img {
+        margin-top: 20px;
+    }
+
+    .about img {
+        height: 248px;
+    }
+}
+
+@media (max-width: 1312px) {
+    .img_container img {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 1292px) {
+    .img_container img {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1143px) {
+    .img_container img {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 1089px) {
+    .img_container img {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo {
+        margin-right: 40px;
+    }
+
+    .nav a {
+        font-size: 15px;
+    }
+
+    .burning_man {
+        top: 38%;
+    }
+
+    .tel p {
+        font-size: 15px;
+    }
+
+    .burning_man h2 {
+        font-size: 70px;
+        margin-bottom: 10px;
+    }
+
+    .burning_man h3 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .about h3 {
+        font-size: 45px;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .about h4 {
+        font-size: 20px;
+    }
+
+    .about p {
+        font-size: 13px;
+        margin-bottom: 50px;
+    }
+
+    .project_name {
+        margin-top: 60px;
+    }
+
+}
+
+@media (max-width: 996px) {
+    .about img {
+        height: 100%;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+    }
+
+    .info {
+        display: block;
+    }
+
+    .drives h4 {
+        margin-top: 75px;
+    }
+
+    .about p {
+        margin-bottom: 30px
+    }
+}
+
+@media (max-width: 740px) {
+    .logo {
+        margin-right: 10px;
+    }
+
+    .logo img {
+        width: 50%;
+    }
+
+    .nav a {
+        font-size: 10px;
+    }
+
+    .nav li {
+        margin-right: 15px;
+    }
+
+    .nav {
+        padding: 25px 0px 25px 0px;
+    }
+
+    .tel p {
+        font-size: 10px;
+    }
+
+    .burning_man h2 {
+        font-size: 45px;
+    }
+
+    .burning_man h3 {
+        font-size: 15px;
+    }
+
+    .tickets {
+        padding: 15px 25px 15px 25px;
+    }
+
+    .tickets a {
+        font-size: 10px;
+    }
+
+    .about h3 {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .about h4 {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .about p {
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .project_name {
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 590px) {
+    .about img {
+        width: 80%;
+    }
+
+    .project_name p {
+        margin: 0;
+    }
+
+    .project_name {
+        display: block;
+    }
+
+    .nav {
+        display: block;
+    }
+
+    .nav_container {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .tel p {
+        text-align: center;
+    }
+
+    .about img {
+        width: 100%;
+    }
+}
