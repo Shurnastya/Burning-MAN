@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style.css">
         <link rel="stylesheet" href="./media.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
@@ -22,7 +23,7 @@
                     <div class="wrapper">
                         <div class="container">
                             <nav class="nav">
-                                <div class="nav_container">
+                                <div class="nav_container animate__animated animate__bounceInDown">
                                     <div class="logo">
                                         <a href="./index.html"><img src="img/logo.svg" alt="Logo"></a>
                                     </div>
@@ -35,12 +36,12 @@
                                     </ul>
                                 </div>
 
-                                <div class="tel">
+                                <div class="tel animate__animated animate__bounceInDown">
                                     <p>+1 893 839-23-64</p>
                                 </div>
                             </nav>
 
-                            <div class="burning_man">
+                            <div class="burning_man animate__animated animate__bounceInRight">
                                 <h3>Not tne event. The life</h3>
                                 <h2>Burning MAN</h2>
                                 <button class="tickets"><a href="#">Book the tickets</a></button>
@@ -51,11 +52,11 @@
 
                 <section class="about">
                     <div class="wrapper">
-                        <h3>About the event</h3>
+                        <h3 class="wow animate__animated animate__fadeIn">About the event</h3>
                         <div class="info">
                             <div class="rebuilding">
-                                <h4>Rebuilding the society</h4>
-                                <p>Burning Man is a network of people inspired 
+                                <h4 class="wow animate__animated animate__fadeIn">Rebuilding the society</h4>
+                                <p class="wow animate__animated animate__fadeIn">Burning Man is a network of people inspired 
                                     by the values reflected in the Ten Principles 
                                     and united in the pursuit of a more creative and 
                                     connected existence in the world. Throughout the 
@@ -64,13 +65,13 @@
                                     the distinctive culture emerging from that experience.
                                 </p>
                                 <div class="img_container">
-                                    <img src="img/img1.jpg" alt="Foto">
-                                    <img src="img/img2.jpg" alt="Foto">
+                                    <img class="wow animate__animated animate__flipInX" src="img/img1.jpg" alt="Foto">
+                                    <img class="wow animate__animated animate__flipInX" src="img/img2.jpg" alt="Foto">
                                 </div>
                             </div>
                             <div class="drives">
-                                <h4>This drives us</h4>
-                                <p>Burning Man Project will bring experiences to 
+                                <h4 class="wow animate__animated animate__fadeIn">This drives us</h4>
+                                <p class="wow animate__animated animate__fadeIn">Burning Man Project will bring experiences to 
                                     people in grand, awe-inspiring and joyful ways 
                                     that lift the human spirit, address social 
                                     problems, and inspire a sense of culture, 
@@ -82,16 +83,20 @@
                                     Civic Involvement, Culture, Education, Philosophical 
                                     Center, and Social Enterprise.
                                 </p>
-                                <img src="img/img3.jpg" alt="Foto">
+                                <img class="wow animate__animated animate__flipInX" src="img/img3.jpg" alt="Foto">
                             </div>
                         </div>
                         <div class="project_name">
-                            <p>&copy1989-2020 burning man project</p>
-                            <p>WAYUP &amp Андрей Гаврилов</p>
+                            <p class="wow animate__animated animate__fadeIn">&copy1989-2020 burning man project</p>
+                            <p class="wow animate__animated animate__fadeIn">WAYUP &amp Андрей Гаврилов</p>
                         </div>
                     </div>
                 </section>
 
         </div>
+        <script src="./wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
     </body>
 </html>

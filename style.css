@@ -88,8 +88,7 @@ button, a {
 
 .burning_man {
     position: absolute;
-    top: 50%;
-    transform: translate(0, -40%);
+    top: 35%;
 }
 
 .burning_man h3 {
